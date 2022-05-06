@@ -9,6 +9,10 @@
 Nhớ thêm chữ export vào dòng cuối:
 `export const app = initializeApp(firebaseConfig);`
 
+## Cài thêm thư viện Gift chat
+
+react-native-gifted-chat
+
 # Chạy ứng dụng
 
 - `npm install` - restore packages

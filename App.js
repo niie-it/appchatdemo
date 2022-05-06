@@ -15,10 +15,11 @@ export default function App() {
     <View style={styles.container}>
       <UserContextProvider>
         <NavigationContainer>
-          <Drawer.Navigator initialRouteName="Home">
+          <Drawer.Navigator initialRouteName="Chat">
             <Drawer.Screen name="Login" component={UI.Login} />
             <Drawer.Screen name="Home" component={UI.Home} />
             <Drawer.Screen name="Register" component={UI.Register} />
+            <Drawer.Screen name="Chat" component={UI.Chat} />
           </Drawer.Navigator>
         </NavigationContainer>
       </UserContextProvider>
