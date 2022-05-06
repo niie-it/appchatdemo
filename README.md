@@ -1,11 +1,15 @@
-# Sample Snack app
+# Chú ý
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Repo: https://github.com/niie-it/appchatdemo
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+## Tạo thư mục firebase, trong thư mục này sẽ tạo file firebase.js copy từ phần setting của project firebase.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Thêm databaseURL vào trong firebaseConfig
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+Nhớ thêm chữ export vào dòng cuối:
+`export const app = initializeApp(firebaseConfig);`
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+# Chạy ứng dụng
+
+- `npm install` - restore packages
+- `expo start` hoặc `npm start`

@@ -1,7 +1,7 @@
-import {Login} from './Login';
-import {Home} from './Home';
-import {Register} from './Register';
-import {Loader} from './Loader';
+import { Login } from './Login';
+import { Home } from './Home';
+import { Register } from './Register';
+import { Loader } from './Loader';
 
 export const UI = {
   Login,

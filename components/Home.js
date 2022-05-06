@@ -6,10 +6,18 @@ export const Home = ({ navigation }) => {
   const [user, setUser] = useContext(UserContext);
 
   useEffect(() => {
+    console.log(user)
     if (!user.isLogged) {
       navigation.navigate("Login");
     }
   });
+
+  useEffect(() => {
+    console.log('first load component', user)
+    if (!user.isLogged) {
+      navigation.navigate("Login");
+    }
+  }, []);
 
   const hanleLogout = () => {
     setUser({
